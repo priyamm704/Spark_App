@@ -1,0 +1,197 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* first style */
+/* Logo */
+.sparkapp{
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.main_cointainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    flex-wrap: wrap;
+    height: 832px;
+    width: 658px;
+}
+.spark_logo{
+    width: 208px;
+    height: 72px;
+    flex-shrink: 0;
+    display: inline-block;
+    background: url(/Spark\ Logo\ High\ res.svg), #FFF 0px 0px / 98.961% 100.739% no-repeat;
+    margin-top: 49px;
+    margin-bottom: 108px;
+    margin-left: 80px;
+}
+/* First_Text Box */
+.ftext_box{
+    width: 454px;
+    margin-left: 80px;
+    margin-right: 88px;
+    margin-bottom: 61px;
+}
+.ftext{
+    color: #1D2C56;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+.stext{
+    color: #C22D75;
+    font-family: Poppins;
+    font-size: 102px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+/* Second text Box */
+.stext_box{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 7px;
+    margin-left: 80px;
+    margin-bottom: 18px;
+}
+.ttext{
+    color: #1D2C56;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+/* Place_holder */
+.place_holder{
+    display: inline-flex;
+    padding-left: 0px;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 221px;
+    width: 458px;
+    height: 62px;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 0px 0px 72px 15px rgba(0, 0, 0, 0.10);
+    margin-left: 80px;
+    margin-bottom: 5px;
+}
+.textwriter{
+    width: 142px;
+    color: #71737A;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    border: none;
+}
+.button{
+    width: 70px;
+    height: 62px;
+    background-image: url(/Frame\ 18550.png);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: none;
+}
+/* messege */
+.fitext{
+    color: #71737A;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 25px;
+    margin-left: 80px;
+    margin-bottom: 110px;
+}
+/* customer care */
+.sitext{
+    color: #1D2C56;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    margin-left: 80px;
+    margin-bottom: 26px;
+}
+/* Second style */
+.smain_container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 832px;
+    width: 658px;
+}
+.box1{
+    position: absolute;
+    margin-right: 416px;
+    margin-top: 0px;
+}
+.box2{
+    position: absolute;
+    margin-left: 242px;
+    margin-top: 0px;
+}
+.box3{
+    position: absolute;
+    margin-top: 242px
+}
+.box4{
+    position: absolute;
+    margin-top: 590px;
+}
+.box5{
+    position: absolute;
+    margin-left: 242px;
+    margin-top: 416px;
+}
+.iphone{
+    position: absolute;
+    margin-right: 115px;
+    margin-left: 115px;
+    margin-top: 39px;
+    display: inline-block;
+}
+.but1{
+    height: 12px;
+    width: 12px;
+    background-color: #fff;
+    border-radius: 50%;
+    border: none;
+}
+.but2{
+    height: 12px;
+    width: 12px;
+    background-color: transparent;
+    border-radius: 50%;
+    border-width: 1px;
+    border-color: #fff;
+}
+.but3{
+    height: 12px;
+    width: 12px;
+    border-width: 1px;
+    border-color: #fff;
+    background-color: transparent;
+    border-radius: 50%;
+}
+.butgroup{
+    width: 56px;
+    height: 12px;
+    margin-right: 300px;
+    margin-left: 180px;
+    margin-top: 0px;
+}
